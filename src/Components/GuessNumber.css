@@ -6,7 +6,7 @@
   /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
   background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
   width: 50%;
-  height: 50vh;
+  height: 60vh;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px ;
   text-align: center;
@@ -26,6 +26,14 @@ input{
   h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5em;
+  }
+  h2{
+    font-style: italic;
+    color: rgb(72, 99, 150);
+  }
+  h3{
+    color:red; 
+    font-weight: bold;
   }
   p{
     font-weight: bold;
