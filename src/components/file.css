@@ -1,0 +1,16 @@
+.container{
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: rgb(236, 178, 186);
+    width: 50%;
+    height: 40vh;
+}
+input{
+    margin-top: 15%;
+}
+button{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(249, 111, 111);
+}
