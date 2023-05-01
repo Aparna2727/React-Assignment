@@ -1,0 +1,19 @@
+
+.container{
+    margin: 60px;
+}
+h1{
+    color: crimson;
+}
+.images{
+    width: 40%;
+    height: 60vh;
+    box-shadow: 10px 10px 10px 5px;
+}
+button{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(135, 200, 135);
+    box-shadow: 5px 5px 5px 5px;
+}
