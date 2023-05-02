@@ -1,5 +1,25 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,0fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+button{
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+  background-color: rgb(231, 19, 97);
+  font-weight: bold;
+  font-size: 1.5em;
+  /* box-shadow: 5px 5px 5px 5px; */
 }
 
 .App-logo {
