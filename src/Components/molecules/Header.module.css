@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b2430;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+span{
+    color: #17cf97;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin-left: -550px;
+}
+
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navList li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+.navList li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+.navList li a:hover{
+    color: #17cf97;
+}
+ button{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menue{
+    color: #fff;
+    display: none;
+    align-items: center;
+}
+
+@media screen and (max-width:769px) {
+    .navList{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 80px;
+        right: 5px;
+        width: 300px;
+        height: 100vh;
+        background: #2a3239;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+    }
+    .navList li{
+        margin-bottom: 25px;
+        cursor: pointer;
+    }
+    .navList li a:hover{
+        color: #17cf97;
+    }
+
+    .menue{
+        color: #fff;
+        display: block;
+        align-items: center;
+    }
+    button{
+        margin-left: 15px;
+        cursor: pointer;
+    }
+}
