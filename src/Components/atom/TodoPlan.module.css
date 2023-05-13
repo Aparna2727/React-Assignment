@@ -1,0 +1,78 @@
+body{
+    background-color: goldenrod;
+}
+
+.container{
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid brown;
+    width: 40vw;
+    padding-bottom: 4vh;
+    height: max-content;
+    background-color:black ;
+    border-radius: 15px;
+    margin-left: 30%;
+
+}
+
+input{
+    padding: 2%;
+    width: 70%;
+    border-radius: 3px;
+}
+.add_btn{
+   
+  margin-top: 20px;
+  padding: 2%;
+  width: 25%;
+  background-color: green;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+/* .p2{
+    text-decoration: line-through;
+    
+} */
+
+.complete_btn{
+    width: 6em;
+    height: 1.8em;
+    margin-left: 1em;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 2px;
+    cursor:pointer;
+}
+.X_btn{
+    width: 4 em;
+    height: 1.8em;
+    margin-left: 0.5em;
+    background-color: red;
+    cursor:pointer;
+}
+
+.listData{
+    display: flex;
+    justify-content: center;
+}
+
+.l2{
+    border: 2px solid white;
+    border-radius: 10px;
+    /* text-decoration: line-through; */
+    margin-bottom: 1.3rem;
+    width: 15vw;
+    text-align: center;
+    /* list-style: none; */
+    
+}
+.list{
+    list-style: none;
+
+}
