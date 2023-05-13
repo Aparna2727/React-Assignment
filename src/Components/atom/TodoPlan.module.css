@@ -40,6 +40,13 @@ input{
     
 } */
 
+.show_line{
+    text-decoration: line-through;
+}
+.none_line{
+ text-decoration: none;
+}
+
 .complete_btn{
     width: 6em;
     height: 1.8em;
