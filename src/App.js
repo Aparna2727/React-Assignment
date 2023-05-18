@@ -1,13 +1,14 @@
 
 import React from 'react'
 import "./App.css"
-import { QuizQuetions } from './Components/Quiz'
+import { Quizz } from './Components/Qzuizz_folder/Quizz'
+
 // import {QuizQuetions } from './Quiz/components/Quiz'
 function App() {
   return (
-    <>
-     <QuizQuetions/>
-    </>
+    <div className='App'>
+     <Quizz/>
+    </div>
   )
 }
 

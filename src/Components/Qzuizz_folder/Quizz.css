@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Quetion-Section{
+    /* border: 2px solid red; */
+    height: 20vh;
+    width: 50em;
+    margin-left: 25em;
+    margin-top: 50px;
+    background-color: rgb(218, 223, 224);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.quetion-count{
+    font-weight: bold;
+    color: blue;
+    font-size: 1.3em;
+}
+.quetions-text{
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.Answer-Section{
+    /* border: 2px solid rgb(76, 0, 255); */
+    height: 25vh;
+    width: 50em;
+    margin-left: 25em;
+    background-color: rgb(218, 223, 224);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.next-submit-btn{
+    margin-top: 20px;
+    margin-left: 40em;
+    width: 10em;
+    height: 5vh;
+    background-color: red;
+    border: 2px solid white;
+    color: aliceblue;
+    font-weight: bold;
+   
+}
+
+.Timer{
+    margin-left: 40em;
+   font-weight: bold;
+   color: green;
+}
+
+/* result section css */
+
+.Quiz-Result{
+    height: 50vh;
+    width: 50em;
+    margin-left: 25em;
+    margin-top: 50px;
+    background-color: rgb(237, 209, 188);
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Thank{
+    color: green;
+}
+.score{
+    margin-top: 1em;
+    color: red;
+    font-size: 1.5em;
+}
+.Greeting{
+    margin-top: 1em;
+    color: blueviolet;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.failed{
+    margin-top: 1em;
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.total-correct-quetions{
+    margin-top: 1em;
+    color: gray;
+    font-weight: bold;
+}
+.Restart-again-btn{
+    margin-top: 3em;
+    width: 10em;
+    height: 5vh;
+    background-color: rgb(76, 158, 76);
+    border: 2px solid white;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
