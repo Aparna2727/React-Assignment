@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo-container{
+    font-size: 3rem;
+    color:darkcyan;
+}
+.Navbar-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(224, 217, 217);
+}
+
+ul{
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+    margin: 1rem;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(142, 123, 159);
+}
